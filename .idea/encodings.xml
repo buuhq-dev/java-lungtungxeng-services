@@ -7,6 +7,14 @@
     <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-console-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-eureka-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-eureka-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gallery-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gallery-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gallery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gallery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-image-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/springboot3-image-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot3/springboot3-microservices/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

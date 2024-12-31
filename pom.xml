@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springboot3/springboot3-microservices</module>
+        <module>springboot3/springboot3-microservices/springboot3-gateway-service</module>
     </modules>
 
     <properties>

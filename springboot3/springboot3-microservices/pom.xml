@@ -16,6 +16,9 @@
         <module>springboot3-config-service</module>
         <module>springboot3-eureka-service</module>
         <module>springboot3-console-service</module>
+        <module>springboot3-image-service</module>
+        <module>springboot3-gallery-service</module>
+
     </modules>
 
     <properties>
@@ -71,6 +74,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>nexus-release</id>
+            <url>http://localhost:9087/repository/maven-central/</url>
+        </repository>
+    </repositories>
 
     <build>
         <pluginManagement>

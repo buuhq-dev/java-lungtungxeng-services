@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: springboot3-console-service
+  profiles:
+    active: "common,dev"
+  config:
+    import: optional:configserver:http://localhost:8800
+
+  cloud:
+    config:
+      username: goota
+      password: 123456
+#      uri: http://localhost:8800
+
+

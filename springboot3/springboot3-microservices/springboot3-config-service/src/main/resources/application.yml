@@ -7,13 +7,13 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-    service-url:
+    serviceUrl:
       #      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8899/eureka}
       defaultZone: http://localhost:8899/eureka
 
 spring:
   application:
-    name: spring-config-service
+    name: springboot3-config-service
   profiles:
     active: native
   security:
