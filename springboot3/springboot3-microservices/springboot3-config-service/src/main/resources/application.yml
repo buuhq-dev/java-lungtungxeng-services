@@ -1,0 +1,34 @@
+server:
+  port: 8800
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      #      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8899/eureka}
+      defaultZone: http://localhost:8899/eureka
+
+spring:
+  application:
+    name: spring-config-service
+  profiles:
+    active: native
+  security:
+    user:
+      name: goota
+      password: 123456
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - classpath:/config-repo
+            - classpath:/config-repo/springboot3-console-service
+            - classpath:/config-repo/springboot3-gateway-service
+            - classpath:/config-repo/springboot3-gallery-service
+            - classpath:/config-repo/springboot3-image-service
+            - ./config-repo
+

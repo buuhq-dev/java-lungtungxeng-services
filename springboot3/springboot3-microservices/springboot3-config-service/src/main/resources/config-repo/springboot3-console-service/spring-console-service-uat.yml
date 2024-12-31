@@ -1,0 +1,8 @@
+#spring.application.name =cloud-config-client
+#server.port=8080
+#
+student:
+  name: Sachin-UAT
+#student.rollNo=1234
+#student.email=sachin@gmail.com
+#student.phone=123456789
