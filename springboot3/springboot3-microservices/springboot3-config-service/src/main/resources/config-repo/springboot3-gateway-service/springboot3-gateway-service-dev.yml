@@ -7,14 +7,19 @@ student:
 #student.email=sachin@gmail.com
 #student.phone=123456789
 
-
 spring:
   cloud:
     gateway:
       routes:
-        - id: my_route
-          uri: https://example.org
+        - id: image-route
+          uri: lb://springboot3-image-service/
           predicates:
-            - Path=/v1/**
-          filter:
-            - StripPrefix=1
+            - Path=/v1/image/**
+          filters:
+            - StripPrefix=2
+        - id: gallery-route
+          uri: lb://springboot3-gallery-service/
+          predicates:
+            - Path=/v1/gallery/**
+          filters:
+            - StripPrefix=2

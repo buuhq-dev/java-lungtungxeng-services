@@ -1,4 +1,6 @@
-
+# swagger-ui custom path
+springdoc:
+  packagesToScan: lungtungxeng.springboot3.gallery.controller
 spring:
   application:
     name: springboot3-gallery-service

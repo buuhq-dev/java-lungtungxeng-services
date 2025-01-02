@@ -17,16 +17,12 @@ public class GalleryController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/gall")
+    @GetMapping("/galleries")
     public Gallery getGallery() {
         LOGGER.info("Creating gallery object ... ");
 
-        // create gallery object
         Gallery gallery = new Gallery();
-//        gallery.setId(id);
         gallery.setId(100);
-
-        // get list of available images
         // @SuppressWarnings("unchecked")    // we'll throw an exception from image service to simulate a failure
 //        List<Object> images = restTemplate.getForObject("http://spring-image-service:8082/images/", List.class);
         List<Object> images = restTemplate.getForObject("http://springboot3-image-service/images", List.class);
